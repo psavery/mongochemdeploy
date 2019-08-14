@@ -1,9 +1,8 @@
-FROM ubuntu:18.04
+FROM python:3.7-slim
 
 RUN apt-get update -y
 RUN apt-get install -y \
-  python3-pip \
-  python3-dev \
+  build-essential \
   pkg-config \
   libopenbabel-dev \
   swig
