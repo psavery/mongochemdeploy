@@ -1,0 +1,4 @@
+click
+jinja2
+mendeleev==0.5.2
+-e git+git://github.com/OpenChemistry/openchemistrypy.git@b9501ad7132ca130ef7e25882ee06cc95c3a58dc#egg=openchemistrypy
